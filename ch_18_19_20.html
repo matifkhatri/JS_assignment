@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>ch_18_19_20</title>
+    </head>
+ <body>
+
+</body>
+<script>
+                var courses=[];
+             
+                for (i = 0; i < 5; i++) {
+                    var value =prompt("course", "computer")
+                    courses.push(value);
+                }
+                alert(courses);
+                 for (i = 0; i < 5; i++) {
+                    
+                    value=prompt("Edit course",courses[i])
+                    var edit = courses.splice(i,1,value);
+                 }
+                 alert(courses);
+               
+            
+</script>
+</html>

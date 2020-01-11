@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Chap 9</title>
+    </head>
+ <body>
+
+</body>
+<script>
+                var courses=[];
+                var course1 =prompt("course 1", "computer")
+                var course2 =prompt("course 2", "computer")
+                var course3 =prompt("course 3", "computer")
+                var course4 =prompt("course 4", "computer")
+                var course5 =prompt("course 5", "computer")
+                courses.push(course1,course2,course3,course4,course5);
+                alert(courses)
+                course1=prompt("Edit course1", courses[0])
+                var cou1 = courses.splice(0,1,course1);
+                
+                course2=prompt("Edit course2", courses[1])
+                var cou2 = courses.splice(1,1,course2);
+                course3=prompt("Edit course3", courses[2])
+                var cou3 = courses.splice(2,1,course3);
+                course4=prompt("Edit course4", courses[3])
+                var cou4 = courses.splice(3,1,course4);
+                course5=prompt("Edit course5", courses[4])
+                var cou5 = courses.splice(4,1,course5);
+                alert(courses);
+</script>
+</html>
